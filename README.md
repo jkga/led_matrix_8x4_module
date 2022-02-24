@@ -37,7 +37,9 @@ This repository aims to provide a basic program, schematic diagram, and PCB desi
 
 
 ## Demo
+> L.O.V.E - A Valentine's day message to everyone   
 
+https://user-images.githubusercontent.com/10413754/155494353-f9fd05cc-bb8c-47e1-8aa6-f02e38358166.mp4
 
 ## Schematic Diagram
 ![schematic_diagram](./assets/img/schematic_diagram.png)
