@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Applications/XAMPP/xamppfiles/htdocs/led_matrix_8x4_module/kicad/led_matrix_8x4_module.kicad_sch</source>
+    <date>Thursday, 24 February 2022 at 15:39:32</date>
+    <tool>Eeschema (6.0.2-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LED Matrix (8x4) using SN74HC595N Shift Register IC</title>
+        <company>John Kenneth Abella</company>
+        <rev>1.0</rev>
+        <date>2/24/2022</date>
+        <source>led_matrix_8x4_module.kicad_sch</source>
+        <comment number="1" value="For Hobyist, By Hobyist"/>
+        <comment number="2" value="www.github.com/jkga"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>33uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062249456</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622c7923</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5aa53e7-15fe-48d9-a4dd-bfa1a4b3d933</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062168408</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062168402</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621683fc</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621683f6</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062165c72</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062165c6c</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062165c66</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062165c60</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006216509a</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062165094</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006216508e</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062165088</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062161a31</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006216166c</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062161595</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062150eae</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062173ce1</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062173cdb</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062173cd5</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062173ccf</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062176528</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062176522</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006217651c</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062176516</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062178c64</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062178c5e</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062178c58</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062178c52</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006217b3d5</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006217b3cf</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006217b3c9</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>LED_THT:LED_Oval_W5.2mm_H3.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006217b3c3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44b8d4ec-c03f-487f-a782-f28083ef97a1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e074f39-f341-4958-bef7-3b1a944c481f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97ee1bcd-6860-4409-922c-d8af00d28b24</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DIP_SOCKET_02x08</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise" description="Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>662afb45-2dfe-42d4-89e8-cbc4407b8189</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621b83a5</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621d1fa5</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621dfbdd</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621e3ad1</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621e7bf2</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621ec58f</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621f34b4</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>PN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="PN2222A" description="1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621f5c91</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621c8e18</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006223cc27</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621d1fac</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062199214</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621dfbe4</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006219a2ba</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621e3ad8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621b33f3</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621e7bf9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621b4311</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621ec596</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006219cd70</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621f34bb</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006219da97</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621f5c98</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>510</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006219e932</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="led_matrix_8x4_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062263813</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise">
+      <description>Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="PN2222A">
+      <description>1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PN2222A</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/PN2222-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="ClockPin">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SRCLK" pintype="input"/>
+    </net>
+    <net code="3" name="DataOutPin">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="QH'" pintype="output"/>
+    </net>
+    <net code="4" name="DataPin">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="5" name="GNDREF">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="LatchPin">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="RCLK" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q8-Pad2)">
+      <node ref="Q8" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Pin1">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="36" name="Pin2">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="37" name="Pin3">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="38" name="Pin4">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="39" name="Pin5">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="40" name="Pin6">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="41" name="Pin7">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="42" name="Pin8">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="43" name="unconnected-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(J4-Pad5)">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(J4-Pad6)">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(J4-Pad7)">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J4-Pad8)">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(J4-Pad9)">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(J4-Pad10)">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(J4-Pad11)">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(J4-Pad12)">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(J4-Pad13)">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(J4-Pad14)">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(J4-Pad15)">
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(J4-Pad16)">
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+  </nets>
+</export>
