@@ -394,12 +394,13 @@ int scrollText(int board8x4, int letters[], int letterCount, int columnCount) {
 
 
   
-void loop() {const int letters[] = {
-  charL,
-  charO,
-  charV,
-  charE,
-  charHeart
-};
+void loop() {
+  const int letters[] = {
+    charL,
+    charO,
+    charV,
+    charE,
+    charHeart
+  };
   scrollText(board8x4, letters, sizeof(letters) / sizeof(int), 8);
 }
